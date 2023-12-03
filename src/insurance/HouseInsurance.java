@@ -19,11 +19,11 @@ public class HouseInsurance extends Insurance {
     @Override
     public String toString() {
         return "Insurance{" +
-                "name='" + getName() + '\'' +
-                ", duration='" + getDuration() + '\'' +
+                "name='" + getName() +
+                ", duration='" + getDuration() +
                 ", price=" + getPrice() +
                 ", compensation=" + getCompensation() +
-                "houseValue=" + houseValue +
+                ", houseValue=" + houseValue +
                 '}';
     }
 }

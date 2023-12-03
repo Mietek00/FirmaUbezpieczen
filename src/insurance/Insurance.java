@@ -47,8 +47,8 @@ public class Insurance {
 
     public String toString() {
         return "Insurance{" +
-                "name='" + name + '\'' +
-                ", duration='" + duration + '\'' +
+                "name='" + name +
+                ", duration='" + duration +
                 ", price=" + price +
                 ", compensation=" + compensation +
                 '}';
